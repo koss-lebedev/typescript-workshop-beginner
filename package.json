@@ -1,0 +1,27 @@
+{
+  "name": "typescript-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "type-check": "tsc --skipLibCheck",
+    "lint": "tslint './src/**/*.{ts,tsx}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.7.7",
+    "@types/react-redux": "^6.0.9",
+    "@types/recompose": "^0.27.0",
+    "@types/styled-components": "^4.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "recompose": "^0.30.0",
+    "styled-components": "^4.0.2"
+  }
+}
